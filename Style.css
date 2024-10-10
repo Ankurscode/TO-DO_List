@@ -67,6 +67,7 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
+    padding-left: 40px;
 }
 
 ul li::before{
@@ -80,6 +81,7 @@ ul li::before{
     background-position: center;
     top: 8px;
     left: 8px;
+ 
 }
 
 ul li.checked{
@@ -93,7 +95,7 @@ ul li.checked::before{
 
 ul li span{
     position: absolute;
-    right: 0;
+    right: 0px;
     top:5px;
     width: 40px;
     height: 40px;
